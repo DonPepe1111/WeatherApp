@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pepe's Weather App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Optional: Add a frog.png image in the public directory -->
+    <img src="frog.png" alt="Pepe the Frog" style="width: 100px; height: 100px;">
+    <h1>Pepe's Weather App</h1>
+    <div class="input-container">
+      <div class="location-wrapper">
+        <input type="text" id="location-input" placeholder="Enter location">
+        <ul id="suggestions"></ul>
+      </div>
+      <button id="locate-me">Locate Me</button>
+    </div>
+    <div id="weather-data"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
